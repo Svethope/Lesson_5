@@ -1,0 +1,130 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+.square{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 55px;
+	font-weight: 900;
+	border: 4px solid #f10151;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: justify;
+	margin: auto;
+	padding-top: 50px;
+}
+.big{
+	display: block;
+	padding: 20px;
+	margin: 10px;
+	box-sizing: content-box;
+	border: 1px dotted #114;
+	color: aqua;
+}
+.spanish{
+	display: inline-block;
+	width: 550px;
+	padding: 10px;
+	margin: 5px 5px 15px;
+	border-right: 1px solid #114;
+	color: #f10151;
+}
+.spanish.last{
+	border-right: 0px;
+}
+.polzem{
+	border: 5px dashed #114;
+	max-height: 150px;
+	width: fit-content;
+	max-width: 600px;
+	padding: 15px 25px;
+	margin: -45px 20px 20px 20px;
+	display: block;
+	overflow: scroll;
+}
+.imgtest{
+	display: inline-block;
+	text-align-last: center;
+	width: 20%;
+	background: #ebcb9b;
+}
+.img2, .img3, .img4, .img5{
+	display: inline-block;
+	width: 40%;
+	height: 40%;
+	margin: 10px 10px 10px 20px;
+	padding: 0px;
+	border: 2px solid #255;
+	vertical-align: baseline;
+
+}
+.picture{
+	width: 50%;
+	height: 50%;
+}
+.blochny{
+	display: block;
+	border: 7px dotted #ebcb9b;
+	padding: 15px;
+	margin: auto;
+	height: 200px;
+	width: 850px;
+	overflow: auto;
+}
+.strochny{
+	display: inline;
+	border:5px solid #114;
+	line-height: 20px;
+}
+.foot{
+	display: block;
+	color: #0f39f1;
+	font-style: italic;
+	font-weight: 600;
+	font-size: large;
+	padding: 20px;
+	border: 2px dotted #f10151;
+	width: fit-content;
+	margin: auto;
+}
+li{
+	display: inline-block;
+	text-align: justify;
+}
